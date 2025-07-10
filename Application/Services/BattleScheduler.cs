@@ -12,14 +12,18 @@ public class BattleScheduler : IBattleScheduler
 {
     private readonly IExternalCharacterService _externalService;
     private readonly Random _random = new();
+    private readonly ILoggerService _logger;
 
-    public BattleScheduler(IExternalCharacterService externalService)
+    public BattleScheduler(IExternalCharacterService externalService, ILoggerService logger)
     {
         _externalService = externalService;
+        _logger = logger;
     }
 
     public async Task<List<BattleDto>> ScheduleBattlesAsync(int numeroParticipantes)
     {
+
+        _logger.LogInfo($"Iniciando agendamiento con {numeroParticipantes} peleadores");
         if (numeroParticipantes < 2 || numeroParticipantes > 16 || numeroParticipantes % 2 != 0)
             throw new ArgumentException("El número de peleadores debe ser par y entre 2 y 16.");
 
@@ -29,6 +33,7 @@ public class BattleScheduler : IBattleScheduler
             throw new Exception("No se recibieron personajes desde la API externa.");
 
         var names = fighters.Select(f => f.Name).ToList();
+        _logger.LogInfo($"Nombres de peleadores obtenidos: {string.Join(", ", names)}");
         var schedules = new List<BattleDto>();
         DateTime startDate = DateTime.UtcNow.Date.AddDays(30);
 

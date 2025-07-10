@@ -1,0 +1,4 @@
+2025-07-10 16:08:37 [INFO] Iniciando agendamiento con 8 peleadores
+2025-07-10 16:08:38 [INFO] Nombres de peleadores obtenidos System.Collections.Generic.List`1[System.String]
+2025-07-10 16:11:59 [INFO] Iniciando agendamiento con 8 peleadores
+2025-07-10 16:12:00 [INFO] Nombres de peleadores obtenidos: Goku, Vegeta, Piccolo, Bulma, Freezer, Zarbon, Dodoria, Ginyu

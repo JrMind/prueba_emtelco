@@ -15,11 +15,12 @@ API REST en .NET 6 con arquitectura limpia para organizar batallas aleatorias ut
 
 Ejemplo de respuesta:
 ```json
-[
-  {
-    "date": "2023-12-01T00:00:00Z",
-    "fighter1": "Goku",
-    "fighter2": "Vegeta"
-  }
-]
+{
+  "batallas": [
+    {
+      "batalla": "Goku vs Vegeta",
+      "fecha": "2025/08/09"
+    }
+  ]
+}
 ```
