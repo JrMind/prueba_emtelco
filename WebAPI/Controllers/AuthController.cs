@@ -18,6 +18,15 @@ public class AuthController : ControllerBase
         _config = config;
     }
 
+    /// <summary>
+    /// Inicia sesión para obtener un token JWT.
+    /// </summary>
+    /// <param name="request">Credenciales del usuario, en este caso como es una prueba, el usuario es prueba y su contrasena prueba, se expone esta informacion para que no haya errores al momento de logearse.</param>
+    /// <returns>Token JWT si las credenciales son válidas.</returns>
+    /// <response code="200">Token generado exitosamente</response>
+    /// <response code="401">Credenciales inválidas</response>
+    [ProducesResponseType(typeof(object), 200)]
+    [ProducesResponseType(typeof(object), 401)]
     [HttpPost("login")]
     public IActionResult Login([FromBody] LoginRequest request)
     {

@@ -90,3 +90,5 @@ C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\WebAPI\obj\Debug\net6.0\We
 C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
 C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\WebAPI\obj\Debug\net6.0\WebAPI.sourcelink.json
+C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\WebAPI\bin\Debug\net6.0\WebAPI.xml
+C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\WebAPI\obj\Debug\net6.0\WebAPI.xml

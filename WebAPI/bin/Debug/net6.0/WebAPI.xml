@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPI.Controllers.AuthController.Login(Application.DTOs.LoginRequest)">
+            <summary>
+            Inicia sesión para obtener un token JWT.
+            </summary>
+            <param name="request">Credenciales del usuario, en este caso como es una prueba, el usuario es prueba y su contrasena prueba, se expone esta informacion para que no haya errores al momento de logearse.</param>
+            <returns>Token JWT si las credenciales son válidas.</returns>
+            <response code="200">Token generado exitosamente</response>
+            <response code="401">Credenciales inválidas</response>
+        </member>
+    </members>
+</doc>
