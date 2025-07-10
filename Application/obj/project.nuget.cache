@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "dcMe/D2EAwk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\j_res\\OneDrive\\Escritorio\\prueba_emtelco_api\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\j_res\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.6\\microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\j_res\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\j_res\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\j_res\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}
