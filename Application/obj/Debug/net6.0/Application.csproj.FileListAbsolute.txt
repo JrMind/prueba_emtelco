@@ -29,3 +29,4 @@ C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\Application\obj\Debug\net6
 C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\Application\obj\Debug\net6.0\refint\Application.dll
 C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\Application\obj\Debug\net6.0\Application.pdb
 C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\Application\obj\Debug\net6.0\ref\Application.dll
+C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\Application\obj\Debug\net6.0\Application.sourcelink.json

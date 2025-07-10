@@ -33,3 +33,4 @@ C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\Infrastructure\obj\Debug\n
 C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
 C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
 C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+C:\Users\j_res\OneDrive\Escritorio\prueba_emtelco_api\Infrastructure\obj\Debug\net6.0\Infrastructure.sourcelink.json
